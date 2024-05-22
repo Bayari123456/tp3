@@ -1,0 +1,8 @@
+services:
+spring-boot-app:
+image:backend
+ports:
+- "0.0.0.0:8091:8091"
+environement:
+-SPRING_DATASOURCE_URL=j dbc:mysql://mysql:3300/api_etudiant
+-s
